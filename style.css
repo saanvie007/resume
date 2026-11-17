@@ -149,3 +149,6 @@ a:focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; }
 @media (prefers-reduced-motion: reduce) {
   * { transition: none !important; scroll-behavior: auto !important; }
 }
+
+/* ---------- ID selector ---------- */
+#top h1 { letter-spacing: -0.01em; }
